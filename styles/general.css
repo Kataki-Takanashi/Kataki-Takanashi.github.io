@@ -1,0 +1,123 @@
+.pfp {
+    width: 300px;
+    border: 5px solid slategray;
+    border-radius: 150px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45)
+}
+
+p {
+    font-family: Roboto, Arial;
+}
+
+.name {
+    color: black;
+    margin-bottom: 0px;
+}
+
+.info {
+    font-size: 13px;
+    margin-bottom: 80px;
+}
+
+.book {
+font: 17px Roboto, Arial;
+margin-bottom: 10px;
+background-color: rgb(0, 165, 169);
+color: white;
+border: none;
+border-radius: 12px;
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 8px;
+margin-left: 8px;
+vertical-align: top;
+cursor: pointer;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+transition: margin-top .05s, margin-left .05s, box-shadow .05s, transform .4s;
+}
+
+.book:hover {
+transform: scale(1.1)
+}
+
+.book:active {
+margin-top: 11px;
+margin-left: 11px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);
+}
+
+table {
+border-radius: 5px;
+margin-bottom: 30px;
+margin-top: 50px;
+}
+
+th {
+font-size: 17px;
+background-color: slategray;
+}
+
+td {
+font-size: 16px;
+color: black;
+background-color: white;
+}
+
+tr {
+}
+
+
+.About {
+background-color: deepskyblue;
+border-radius: 20px;
+padding: 100px;
+box-shadow: 20px 20px 20px black;
+}
+
+.github {
+color: rgb(105, 30, 152);
+background-color: white;
+border: none;
+border-radius: 50px;
+margin-bottom: 20px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+transition: background-color .2s linear, box-shadow .6s;
+}
+
+.github:hover {
+background-color: rgb(105, 30, 152);
+cursor: pointer;
+}
+
+.lan, .stk, .bok {
+width: 800px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, .0)
+}
+
+.lan:hover, .stk:hover, .bok:hover {
+box-shadow: 0px 0px 20px rgba(0, 0, 0, .8)
+}
+
+.lan, .bok {
+vertical-align: top;
+}
+
+.projects {
+margin-top: 65px;
+position: relative;
+}
+
+.butt {
+position: absolute;
+z-index: 100;
+bottom: 0;
+right: 0vw;
+left: 0vw;
+}
+
+li {
+width: 500px;
+}
